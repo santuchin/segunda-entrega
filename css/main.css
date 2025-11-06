@@ -1,6 +1,6 @@
 
 body {
-	background-color: #BBBBBB;
+	background-color: #FFFFFF;
     font-family: Roboto, sans-serif;
 }
 
@@ -8,7 +8,7 @@ header h1 {
 	color: yellow;
 }
 
-.shop-photo {
+#shop-photo {
 	width: 100%;
 	display: block;
 	margin: 0 auto;
@@ -25,10 +25,24 @@ header h1 {
 }
 
 #merch .merch {
-	border: 2px solid gray;
+	border: 1px solid gray;
+	border-radius: 12px;
+	padding: 5px;
+	text-align: center;
 }
 
 #merch .merch .merch-image {
 	width: 250px;
+}
+
+#merch .merch .merch-name {
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+#merch .merch .merch-price {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 4px;
 }
 
