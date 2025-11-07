@@ -1,11 +1,12 @@
 
 body {
-	background-color: #FFFFFF;
+	background-color: #EEEEEE;
     font-family: Roboto, sans-serif;
 }
 
-header h1 {
+#title {
 	color: yellow;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 #shop-photo {
@@ -45,4 +46,15 @@ header h1 {
 	font-weight: bold;
 	margin-top: 4px;
 }
+
+.social a img {
+	display: inline-block;
+	width: 50px;
+}
+
+#location iframe {
+	display: block;
+	margin: 0 auto;
+}
+
 
